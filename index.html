@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ Hello world!
+</body>
+<script src="https://test-rover-main.dev.datavid.com/chat-widget.js"></script> // path of the website where it is hosted
+<script>
+    // Initialize the chat widget with custom configuration
+    const chatWidget = new ChatWidget({
+        position: 'bottom-right', // 'bottom-right', 'bottom-left', 'top-right', 'top-left'
+        width: '400px',
+        height: '600px',
+        primaryColor: '#0B41CD',
+        secondaryColor: '#F0F3FF',
+        title: 'Chat Assistant',
+        placeholder: 'Ask me anything...',
+        defaultIcon: '',
+        userIcon: '',
+        webUrl:"https://test-rover-main.dev.datavid.com/"
+    });
+</script>
+</html>
